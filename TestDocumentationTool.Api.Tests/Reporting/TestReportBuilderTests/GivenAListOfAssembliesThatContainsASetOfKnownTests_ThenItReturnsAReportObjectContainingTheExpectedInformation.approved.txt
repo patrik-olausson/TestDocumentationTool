@@ -1,0 +1,155 @@
+﻿{
+  "DateCreated": ReplacedDateTime,
+  "Projects": [
+    {
+      "Name": "TestDocumentationTool.Api.Tests.dll",
+      "UnitsUnderTest": [
+        {
+          "ClassName": "LoadAssemblies",
+          "Namespace": "AssemblyLoaderThatRequiresValidDirectoryTests",
+          "OperationsUnderTest": [
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirecotryInfoThatIsNull_ThenArgumentNullExceptionIsThrown",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirecotryInfoThatIsNull_ThenArgumentNullExceptionIsThrown"
+                }
+              ],
+              "HasInformation": true
+            },
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirectoryInfoThatHasAnInvalidPath_ThenArgumentExceptionIsThrown",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirectoryInfoThatHasAnInvalidPath_ThenArgumentExceptionIsThrown"
+                }
+              ],
+              "HasInformation": true
+            }
+          ],
+          "HasInformation": true
+        },
+        {
+          "ClassName": "LoadAssemblies",
+          "Namespace": "AssemblyLoaderThatAlwaysReturnSomethingTests",
+          "OperationsUnderTest": [
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirecotryInfoThatIsNull_ThenAnEmptyListIsReturned",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirecotryInfoThatIsNull_ThenAnEmptyListIsReturned"
+                }
+              ],
+              "HasInformation": true
+            },
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirectoryInfoThatHasAnInvalidPath_ThenAnEmptyListIsReturned",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirectoryInfoThatHasAnInvalidPath_ThenAnEmptyListIsReturned"
+                }
+              ],
+              "HasInformation": true
+            },
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirectoryInfoThatPointsToAnEmptyDirectory_ThenAnEmptyListIsReturned",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirectoryInfoThatPointsToAnEmptyDirectory_ThenAnEmptyListIsReturned"
+                }
+              ],
+              "HasInformation": true
+            },
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirectoryInfoThatPointsToDirectoryWithAssembliesWithoutAnyTests_ThenAnEmptyListIsReturned",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirectoryInfoThatPointsToDirectoryWithAssembliesWithoutAnyTests_ThenAnEmptyListIsReturned"
+                }
+              ],
+              "HasInformation": true
+            },
+            {
+              "ClassName": "LoadAssemblies",
+              "MethodName": "GivenADirectoryInfoThatPointsToDirectoryWithTwoAssembliesThatContainsTests_ThenAListWithTwoEntriesIsReturned",
+              "TestScenarios": [
+                {
+                  "Name": "GivenADirectoryInfoThatPointsToDirectoryWithTwoAssembliesThatContainsTests_ThenAListWithTwoEntriesIsReturned"
+                }
+              ],
+              "HasInformation": true
+            }
+          ],
+          "HasInformation": true
+        }
+      ],
+      "HasInformation": true
+    },
+    {
+      "Name": "ToolboxForTesting.Tests.dll",
+      "UnitsUnderTest": [
+        {
+          "ClassName": "HasValue",
+          "Namespace": "ExtensionMethodsTests",
+          "OperationsUnderTest": [
+            {
+              "ClassName": "HasValue",
+              "MethodName": "GivenAValueThatIsConsideredToBeVoid_ThenItReturnsFalse",
+              "TestScenarios": [
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeVoid_ThenItReturnsFalse_1"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeVoid_ThenItReturnsFalse_2"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeVoid_ThenItReturnsFalse_3"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeVoid_ThenItReturnsFalse_4"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeVoid_ThenItReturnsFalse_5"
+                }
+              ],
+              "HasInformation": true
+            },
+            {
+              "ClassName": "HasValue",
+              "MethodName": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue",
+              "TestScenarios": [
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue_1"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue_2"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue_3"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue_4"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue_5"
+                },
+                {
+                  "Name": "GivenAValueThatIsConsideredToBeValid_ThenItReturnsTrue_6"
+                }
+              ],
+              "HasInformation": true
+            }
+          ],
+          "HasInformation": true
+        }
+      ],
+      "HasInformation": true
+    }
+  ]
+}
